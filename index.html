@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF=8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Portfolio website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+
+                <img src="logo.png" class="logo">
+
+
+                <ul id="sidemenu">
+
+                    <li><a href="#header">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#skills">Skills</a></li>
+
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                    <li><a href="#" class="close" onclick="closemenu()">
+                            <p><i class='bx bx-x'></i></p>
+                        </a></li>
+
+                </ul>
+
+                <a href="#" class="menu" onclick="openmenu()">
+                    <p><i class='bx bx-menu'></i></p>
+                </a>
+
+            </nav>
+
+            <div class="header-text">
+
+                <!-- <h1>
+                    Hello,there<br> It's me Ankur kumar varun
+                    <p>I'm a</p><span>FrontEnd Developer</span>
+                </h1> -->
+
+
+                <h5>Hello,Its Me</h5>
+                <h1><span>ANKUR KUMAR VARUN</span></h1> <br>
+                <h2>A creative minded person</h2>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <!----------------------------------------------about-------------------------------------------------->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+
+                    <img src="img.jpg" alt="">
+
+                </div>
+
+                <div class="about-col-2">
+
+                    <h1 class="sub-title">About Me</h1>
+
+                    <div class="about">
+
+                        <p> Currently I'm pursuing Btech in Computer Science and Engineering From Gautam Buddha
+                            University
+                            . My Future aim is to be a Web and Android Developer,I
+                            have a steady source of motivation that drives me to do my best.
+
+                        </p>
+
+                        <div class="tab-titles">
+
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+
+                        <div class="tab-contents active-tab" id="experience">
+
+                            <ul>
+
+                                <li><span>OCT 2023- Current</span><br>CODING SAMURAI
+                                    <br>
+                                <li>Where my course is Core java and project is
+                                    on going.</li>
+                                </li>
+
+                                <li><span>SEPT-OCT 2023</span><br> INTERPE
+                                    <br>Where I learn about html,css and javascript,and do many projcts
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-contents" id="education">
+
+                            <ul>
+
+                                <li><span>2020-24</span><br>GAUTAM BUDDHA UNIVERSITY</li>
+                                <li>
+                                    <h5>B.tech --8.4 CGPA</h5>
+                                </li>
+
+                                <li><span>2019</span><br>HERITAGE INTERNATIONAL SCHOOL,ALIGARH</li>
+                                <li>
+                                    <h5>12th -- 80%
+                                    </h5>
+
+                                </li>
+
+                                <li><span>2017</span><br>KIDS CORNER HAPPY SR. SEC SCHOOL,FIROZABAD</li>
+                                <li>
+                                    <h5>10th -- 8.4 CGPA
+                                    </h5>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!----------------------------------------------skills---------------------------------------------->
+
+    <div id="skills">
+
+        <div class="container">
+
+            <h1 class="sub-title">Skills</h1>
+
+            <div class="skills-list">
+
+                <div>
+                    <i class='bx bx-laptop'></i>
+
+                    <!-- <img src="image/html.png" class="logo"> -->
+
+                    <h2>Web Develoment</h2>
+
+                    <p>I develope websites using HTML,CSS AND JAVASCRIPT</p>
+
+
+
+                </div>
+
+                <div>
+                    <i class='bx bx-video-recording'></i>
+                    <!-- 
+                    <img src="image/javasrcipt.png" class="logo"> -->
+
+                    <h2>Video Editing</h2>
+
+                    <p>I edit videos by VFX editing, color grading etc.</p>
+
+
+
+                </div>
+
+                <div>
+                    <i class='bx bx-shape-triangle'></i>
+
+                    <!-- <img src="image/learning.jpg" class="logo"> -->
+
+                    <h2>Graphic Design</h2>
+
+                    <p> I design and create professional logos and poster</p>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!------------------------------------------------------project-------------------------------------------------------->
+
+
+
+
+    <!------------------------------------------------------contact------------------------------------------------->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p><a href="#"><i class='bx bx-envelope'></i></a> ankurku3ar@gmail.com</p>
+
+                    <p><a href="#"><i class='bx bx-phone'></i></a> 7017411946</p>
+                    <p><a href="#"><i class='bx bxl-instagram'></i>ankurkumarvarun</a></p>
+
+                    <p> <a href="#"><i class='bx bxl-linkedin-square'></i>ankur kumar varun</a></p>
+
+
+                    <div class="social-icons">
+
+
+
+
+                    </div>
+
+                    <a href="c:\Users\shovans\Downloads\Riya sinha(Resume) (2).pdf" download class="btn">Download CV</a>
+
+                </div>
+
+                <div class="contact-right">
+
+                    <form action="http://localhost/portfolio/portfolio.php" method="post">
+
+                        <input type="text" name="name" placeholder="Your Name" required>
+
+                        <input type="email" name="email" placeholder="Your Email" required>
+
+                        <textarea name="message" rows="6" placeholder="Your Message.........."></textarea>
+
+                        <button type="submit" class="btn2">Submit</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p> © Copyright 2023 Developed by ANKUR KUMAR VARUN</p>
+
+        </div>
+
+    </div>
+
+    <script>
+
+
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+
+                tablink.classList.remove("active-link");
+
+            }
+
+            for (tabcontent of tabcontents) {
+
+                tabcontent.classList.remove("active-tab");
+
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
